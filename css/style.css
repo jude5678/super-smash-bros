@@ -1,0 +1,115 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BACKGROUND
+/*******************************************/
+
+#stage {
+  transform:scale(1.5);
+  -webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+/******************************************
+/* CHARACTER
+/*******************************************/
+
+.hidden {
+  visibility: hidden;
+}
+
+.character {
+  margin-top: 18%;
+  margin-left: 38%;
+  height: 400px;
+  width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.characters {
+  position: absolute;
+  margin-left: 19.5%;
+  margin-top: 18.5%;
+}
+
+.charactersTwo {
+  position: absolute;
+
+}
+
+/******************************************
+/* CHARACTER LOGOS
+/*******************************************/
+.logos img {
+  height: 90px;
+  width: auto;
+}
+
+.logos {
+  margin-left: 65%;
+  margin-top: -43%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.logos img:hover {
+  height: 110px;
+  width: auto;
+}
+
+#robNext {
+  height: 6em;
+}
+
+#robNext:hover {
+  height: 8em;
+}
+
+.rob {
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 14%;
+}
+
+#marioNext, #pikachuNext {
+  height: 6.7em;
+}
+
+#marioNext:hover, #pikachuNext:hover {
+  height: 8.7em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
