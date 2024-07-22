@@ -56,6 +56,12 @@
   z-index: 1;
 }
 
+.character .mario {
+
+	margin-top: 14%;
+	
+}
+
 .characters {
   position: absolute;
   margin-left: 19.5%;
