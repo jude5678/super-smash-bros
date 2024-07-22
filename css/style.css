@@ -56,9 +56,9 @@
   z-index: 1;
 }
 
-.character .mario {
+.character.mario {
 
-	margin-top: 14%;
+	margin-top: 5%;
 	
 }
 
