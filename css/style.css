@@ -89,7 +89,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 30%;
-	margin-bottom: 13em;
+	padding-bottom: 13em;
 }
 
 .logos img:hover {
