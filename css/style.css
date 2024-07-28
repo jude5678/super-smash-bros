@@ -80,7 +80,7 @@
 .logos img {
   height: 90px;
   width: auto;
-	margin-bottom: 5em;
+	
 }
 
 .logos {
@@ -89,6 +89,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 30%;
+	margin-bottom: 5em;
 }
 
 .logos img:hover {
