@@ -85,11 +85,11 @@
 
 .logos {
   margin-left: 65%;
-  margin-top: -43%;
+  margin-top: -53%;
   display: flex;
   flex-wrap: wrap;
   width: 30%;
-	padding-bottom: 13em;
+	
 }
 
 .logos img:hover {
